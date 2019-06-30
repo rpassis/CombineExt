@@ -1,0 +1,7 @@
+# CombineExt document generator jazzy settings
+
+copyright: Copyright 2019 CombineExt
+author: Rogerio de Paula Assis
+xcodebuild_arguments: [-target, CombineExt-iOS]
+clean: true
+output: ./Documentation
