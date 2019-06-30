@@ -1,8 +1,4 @@
-<p align="center">
-   <img width="200" src="https://raw.githubusercontent.com/SvenTiigi/SwiftKit/gh-pages/readMeAssets/SwiftKitLogo.png" alt="CombineExt Logo">
-</p>
-
-<p align="center">
+<p align="left">
    <a href="https://developer.apple.com/swift/">
       <img src="https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat" alt="Swift 5.0">
    </a>
@@ -23,59 +19,8 @@
 # CombineExt
 
 <p align="center">
-ℹ️ Short description of CombineExt
+Useful extensions, tools, recipes and Playground experiments to help adopting Apple's Combine framework
 </p>
-
-## Features
-
-- [x] ℹ️ Add CombineExt features
-
-## Example
-
-The example application is the best way to see `CombineExt` in action. Simply open the `CombineExt.xcodeproj` and run the `Example` scheme.
-
-## Installation
-
-### CocoaPods
-
-CombineExt is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```bash
-pod 'CombineExt'
-```
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-
-To integrate CombineExt into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "Rogerio de Paula Assis/CombineExt"
-```
-
-Run `carthage update` to build the framework and drag the built `CombineExt.framework` into your Xcode project. 
-
-On your application targets’ “Build Phases” settings tab, click the “+” icon and choose “New Run Script Phase” and add the Framework path as mentioned in [Carthage Getting started Step 4, 5 and 6](https://github.com/Carthage/Carthage/blob/master/README.md#if-youre-building-for-ios-tvos-or-watchos)
-
-### Swift Package Manager
-
-To integrate using Apple's [Swift Package Manager](https://swift.org/package-manager/), add the following as a dependency to your `Package.swift`:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/RogeriodePaulaAssis/CombineExt.git", from: "1.0.0")
-]
-```
-
-### Manually
-
-If you prefer not to use any of the aforementioned dependency managers, you can integrate CombineExt into your project manually. Simply drag the `Sources` Folder into your Xcode project.
-
-## Usage
-
-ℹ️ Describe the usage of your Kit
 
 ## Contributing
 Contributions are very welcome 🙌
