@@ -18,7 +18,7 @@
 
 # CombineExt
 
-<p align="center">
+<p align="left">
 Useful extensions, tools, recipes and Playground experiments to help adopting Apple's Combine framework
 </p>
 
