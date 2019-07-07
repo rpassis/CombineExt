@@ -49,7 +49,11 @@ extension Publishers {
 }
 
 extension Publisher where Output: OptionalType {
-    
+   
+    /**
+     Converts a sequence that contains optional elements into a sequence of non-optional
+     elements, filtering out all nil values.
+     */
     public func unwrap() -> Publishers.Unwrapped<Self> {
         return Publishers.Unwrapped(upstream: self)
     }
