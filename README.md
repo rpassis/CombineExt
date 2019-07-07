@@ -22,6 +22,45 @@
 Useful extensions, tools, recipes and Playground experiments to help adopting Apple's Combine framework
 </p>
 
+Operators
+===========
+
+* [unwrap](#unwrap)
+* [materialize](#materialize)
+
+Operator details
+===========
+
+#### unwrap
+
+Unwrap optionals and filter out nil values.
+
+```swift
+  Publishers.of(1,2,nil,Int?(4))
+    .unwrap()
+    .subscribe { print($0) }
+```
+
+```
+next(1)
+next(2)
+next(4)
+```
+
+#### materialize
+
+Turns type <T, E: Error> events into MaterilEvent<T E: Error>.
+The returned Publisher never errors, and does complete after observing all of the events of the underlying Publisher.
+
+
+```swift
+  URLSession.shared
+    .dataTaskPublisher(for: url)
+    .map { $0.data }
+    .decode(type: [MyModel].self, decoder: JSONDecoder())
+    .materialize()
+```
+
 ## Contributing
 Contributions are very welcome 🙌
 
