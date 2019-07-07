@@ -21,7 +21,7 @@ extension Optional: OptionalType {
 
 extension Publishers {
     
-    struct Unwrapped<Upstream> : Publisher where Upstream: Publisher, Upstream.Output: OptionalType {
+    public struct Unwrapped<Upstream> : Publisher where Upstream: Publisher, Upstream.Output: OptionalType {
         
         //swiftlint:disable nesting
         public typealias Output = Upstream.Output.Wrapped
@@ -50,7 +50,7 @@ extension Publishers {
 
 extension Publisher where Output: OptionalType {
     
-    func unwrap() -> Publishers.Unwrapped<Self> {
+    public func unwrap() -> Publishers.Unwrapped<Self> {
         return Publishers.Unwrapped(upstream: self)
     }
 }
