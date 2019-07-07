@@ -36,9 +36,9 @@ Operator details
 Unwrap optionals and filter out nil values.
 
 ```swift
-  Publishers.of(1,2,nil,Int?(4))
+  [1,2,nil,4].publisher()
     .unwrap()
-    .subscribe { print($0) }
+    .sink { print($0) }
 ```
 
 ```
