@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D9C42A222745900000A6585 /* CombineExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* CombineExt.swift */; };
-		3D9C42B1227459C1000A6585 /* CombineExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* CombineExt.swift */; };
-		3D9C42BF227459F6000A6585 /* CombineExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* CombineExt.swift */; };
-		3D9C42CD22745A28000A6585 /* CombineExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* CombineExt.swift */; };
 		3D9C42F62274604A000A6585 /* CombineExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* CombineExt.framework */; };
 		3D9C42FC22746078000A6585 /* CombineExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* CombineExtTests.swift */; };
 		3D9C43062274611B000A6585 /* CombineExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C42A92274599D000A6585 /* CombineExt.framework */; };
@@ -23,15 +19,39 @@
 		3D9C432E2274629C000A6585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9C432C2274629C000A6585 /* LaunchScreen.storyboard */; };
 		3D9C433422746323000A6585 /* CombineExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* CombineExt.framework */; };
 		3D9C433522746323000A6585 /* CombineExt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* CombineExt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B30DE0022D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF222D2E3FC00AE7A25 /* _RXObjCRuntime.m */; };
+		5B30DE0122D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF222D2E3FC00AE7A25 /* _RXObjCRuntime.m */; };
+		5B30DE0222D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF222D2E3FC00AE7A25 /* _RXObjCRuntime.m */; };
+		5B30DE0322D2E3FC00AE7A25 /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF322D2E3FC00AE7A25 /* _RX.m */; };
+		5B30DE0422D2E3FC00AE7A25 /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF322D2E3FC00AE7A25 /* _RX.m */; };
+		5B30DE0522D2E3FC00AE7A25 /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF322D2E3FC00AE7A25 /* _RX.m */; };
+		5B30DE0622D2E3FC00AE7A25 /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF322D2E3FC00AE7A25 /* _RX.m */; };
+		5B30DE2922D2E41E00AE7A25 /* _RXObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE2122D2E41E00AE7A25 /* _RXObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE2A22D2E41E00AE7A25 /* _RXObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE2122D2E41E00AE7A25 /* _RXObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE2B22D2E41E00AE7A25 /* _RXObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE2122D2E41E00AE7A25 /* _RXObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE2C22D2E41E00AE7A25 /* _RXObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE2122D2E41E00AE7A25 /* _RXObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE3122D2E41E00AE7A25 /* _RX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE2322D2E41E00AE7A25 /* _RX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE3222D2E41E00AE7A25 /* _RX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE2322D2E41E00AE7A25 /* _RX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE3322D2E41E00AE7A25 /* _RX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE2322D2E41E00AE7A25 /* _RX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE3422D2E41E00AE7A25 /* _RX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE2322D2E41E00AE7A25 /* _RX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE3A22D2E4D200AE7A25 /* CombineExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE3922D2E4D200AE7A25 /* CombineExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30DE3B22D2E4D200AE7A25 /* CombineExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE3922D2E4D200AE7A25 /* CombineExt.h */; };
+		5B30DE3C22D2E4D200AE7A25 /* CombineExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE3922D2E4D200AE7A25 /* CombineExt.h */; };
+		5B30DE3D22D2E4D200AE7A25 /* CombineExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30DE3922D2E4D200AE7A25 /* CombineExt.h */; };
 		5B5FCB6322C9393200347AB0 /* CustomScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */; };
 		5B5FCB6422C9393200347AB0 /* CustomScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */; };
 		5B5FCB6522C9393200347AB0 /* CustomScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */; };
 		5B5FCB6622C9393200347AB0 /* CustomScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */; };
 		5B848F5522D0D77300200401 /* Publisher+Materialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B848F5422D0D77300200401 /* Publisher+Materialize.swift */; };
+		5BA6023722D2E77B005F09B4 /* _RXObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF222D2E3FC00AE7A25 /* _RXObjCRuntime.m */; };
 		5BC282BC22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */; };
 		5BC282BD22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */; };
 		5BC282BE22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */; };
 		5BC282BF22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */; };
+		5BE9851422D2C90900BCF622 /* NSObject+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */; };
+		5BE9851522D2C90900BCF622 /* NSObject+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */; };
+		5BE9851622D2C90900BCF622 /* NSObject+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */; };
+		5BE9851722D2C90900BCF622 /* NSObject+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +103,6 @@
 		3D9C429022745894000A6585 /* CombineExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* CombineExt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CombineExt.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* CombineExtTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CombineExtTests.plist; sourceTree = "<group>"; };
-		3D9C42A122745900000A6585 /* CombineExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExt.swift; sourceTree = "<group>"; };
 		3D9C42A92274599D000A6585 /* CombineExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C42B7227459D6000A6585 /* CombineExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C42C522745A07000A6585 /* CombineExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,9 +126,16 @@
 		3D9C432A2274629C000A6585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9C432D2274629C000A6585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9C432F2274629C000A6585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B30DDF222D2E3FC00AE7A25 /* _RXObjCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RXObjCRuntime.m; sourceTree = "<group>"; };
+		5B30DDF322D2E3FC00AE7A25 /* _RX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RX.m; sourceTree = "<group>"; };
+		5B30DE2122D2E41E00AE7A25 /* _RXObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RXObjCRuntime.h; sourceTree = "<group>"; };
+		5B30DE2322D2E41E00AE7A25 /* _RX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RX.h; sourceTree = "<group>"; };
+		5B30DE3922D2E4D200AE7A25 /* CombineExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombineExt.h; sourceTree = "<group>"; };
 		5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScheduler.swift; sourceTree = "<group>"; };
 		5B848F5422D0D77300200401 /* Publisher+Materialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Materialize.swift"; sourceTree = "<group>"; };
 		5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Unwrap.swift"; sourceTree = "<group>"; };
+		5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Publisher.swift"; sourceTree = "<group>"; };
+		5BE9851822D2C9C400BCF622 /* CombineExt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombineExt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +205,7 @@
 		3D9C428622745894000A6585 = {
 			isa = PBXGroup;
 			children = (
+				5BE9851822D2C9C400BCF622 /* CombineExt.playground */,
 				3D9C42A0227458FA000A6585 /* Sources */,
 				3D9C42A32274595F000A6585 /* Tests */,
 				3D9C43222274629B000A6585 /* Example */,
@@ -223,10 +250,12 @@
 		3D9C42A0227458FA000A6585 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3D9C42A122745900000A6585 /* CombineExt.swift */,
+				5B30DDF022D2E3FC00AE7A25 /* ObjCRuntime */,
+				5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */,
 				5B848F5422D0D77300200401 /* Publisher+Materialize.swift */,
 				5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */,
 				5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */,
+				5B30DE3922D2E4D200AE7A25 /* CombineExt.h */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -260,6 +289,25 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		5B30DDF022D2E3FC00AE7A25 /* ObjCRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				5B30DE1F22D2E41E00AE7A25 /* include */,
+				5B30DDF222D2E3FC00AE7A25 /* _RXObjCRuntime.m */,
+				5B30DDF322D2E3FC00AE7A25 /* _RX.m */,
+			);
+			path = ObjCRuntime;
+			sourceTree = "<group>";
+		};
+		5B30DE1F22D2E41E00AE7A25 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5B30DE2122D2E41E00AE7A25 /* _RXObjCRuntime.h */,
+				5B30DE2322D2E41E00AE7A25 /* _RX.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -267,6 +315,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B30DE3122D2E41E00AE7A25 /* _RX.h in Headers */,
+				5B30DE3A22D2E4D200AE7A25 /* CombineExt.h in Headers */,
+				5B30DE2922D2E41E00AE7A25 /* _RXObjCRuntime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +325,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B30DE3222D2E41E00AE7A25 /* _RX.h in Headers */,
+				5B30DE3B22D2E4D200AE7A25 /* CombineExt.h in Headers */,
+				5B30DE2A22D2E41E00AE7A25 /* _RXObjCRuntime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +335,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B30DE3322D2E41E00AE7A25 /* _RX.h in Headers */,
+				5B30DE3C22D2E4D200AE7A25 /* CombineExt.h in Headers */,
+				5B30DE2B22D2E41E00AE7A25 /* _RXObjCRuntime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +345,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B30DE3422D2E41E00AE7A25 /* _RX.h in Headers */,
+				5B30DE3D22D2E4D200AE7A25 /* CombineExt.h in Headers */,
+				5B30DE2C22D2E41E00AE7A25 /* _RXObjCRuntime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,16 +515,19 @@
 				TargetAttributes = {
 					3D9C428F22745894000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1100;
 					};
 					3D9C42A82274599D000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1100;
 					};
 					3D9C42B6227459D6000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1100;
 					};
 					3D9C42C422745A07000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1100;
 					};
 					3D9C42F02274604A000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -646,9 +709,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA6023722D2E77B005F09B4 /* _RXObjCRuntime.m in Sources */,
+				5B30DE0322D2E3FC00AE7A25 /* _RX.m in Sources */,
 				5B5FCB6322C9393200347AB0 /* CustomScheduler.swift in Sources */,
-				3D9C42A222745900000A6585 /* CombineExt.swift in Sources */,
 				5B848F5522D0D77300200401 /* Publisher+Materialize.swift in Sources */,
+				5BE9851422D2C90900BCF622 /* NSObject+Publisher.swift in Sources */,
 				5BC282BC22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,8 +722,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B30DE0422D2E3FC00AE7A25 /* _RX.m in Sources */,
+				5BE9851522D2C90900BCF622 /* NSObject+Publisher.swift in Sources */,
 				5B5FCB6422C9393200347AB0 /* CustomScheduler.swift in Sources */,
-				3D9C42B1227459C1000A6585 /* CombineExt.swift in Sources */,
+				5B30DE0022D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */,
 				5BC282BD22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,8 +734,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B30DE0522D2E3FC00AE7A25 /* _RX.m in Sources */,
+				5BE9851622D2C90900BCF622 /* NSObject+Publisher.swift in Sources */,
 				5B5FCB6522C9393200347AB0 /* CustomScheduler.swift in Sources */,
-				3D9C42BF227459F6000A6585 /* CombineExt.swift in Sources */,
+				5B30DE0122D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */,
 				5BC282BE22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -677,8 +746,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B30DE0622D2E3FC00AE7A25 /* _RX.m in Sources */,
+				5BE9851722D2C90900BCF622 /* NSObject+Publisher.swift in Sources */,
 				5B5FCB6622C9393200347AB0 /* CustomScheduler.swift in Sources */,
-				3D9C42CD22745A28000A6585 /* CombineExt.swift in Sources */,
+				5B30DE0222D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */,
 				5BC282BF22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -805,8 +876,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -865,8 +936,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -893,7 +964,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Configs/CombineExt.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -903,6 +973,7 @@
 				PRODUCT_NAME = CombineExt;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Sources/$(SWIFT_MODULE_NAME).h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -923,7 +994,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Configs/CombineExt.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -933,6 +1003,7 @@
 				PRODUCT_NAME = CombineExt;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Sources/$(SWIFT_MODULE_NAME).h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -942,6 +1013,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
@@ -951,7 +1023,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Configs/CombineExt.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -962,9 +1033,9 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -972,6 +1043,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
@@ -981,7 +1053,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Configs/CombineExt.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -994,7 +1065,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -1002,6 +1072,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
@@ -1011,7 +1082,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Configs/CombineExt.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1022,9 +1092,9 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -1032,6 +1102,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
@@ -1041,7 +1112,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Configs/CombineExt.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1054,7 +1124,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1062,6 +1131,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1073,18 +1143,17 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Configs/CombineExt.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rdpa.combineext.CombineExt-macOS";
 				PRODUCT_NAME = CombineExt;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1093,6 +1162,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1104,13 +1174,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Configs/CombineExt.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rdpa.combineext.CombineExt-macOS";
 				PRODUCT_NAME = CombineExt;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1125,7 +1193,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Configs/CombineExtTests.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1143,7 +1210,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Configs/CombineExtTests.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1171,7 +1237,6 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -1190,7 +1255,6 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -1206,7 +1270,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rdpa.combineext.CombineExt-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1226,7 +1289,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rdpa.combineext.CombineExt-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
