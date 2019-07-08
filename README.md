@@ -27,6 +27,7 @@ Operators
 
 * [unwrap](#unwrap)
 * [materialize](#materialize)
+* [methodInvoked](#methodInvoked)
 
 Operator details
 ===========
@@ -59,6 +60,17 @@ The returned Publisher never errors, and does complete after observing all of th
     .map { $0.data }
     .decode(type: [MyModel].self, decoder: JSONDecoder())
     .materialize()
+```
+
+#### methodInvoked
+
+Works on any NSObject subclass by swizzling the invoked selector and providing a way to hook into it using a publisher of type <[Any], Error>.
+The [Any] array will contain any arguments that are passed in with the function (or it will be empty if none are passed).
+
+```swift
+  let vc = UIViewController()
+  // Returns a AnyPublisher<[Any], Error> type that will emit and complete when viewDidLoad is called on the target view controller
+  let viewDidLoadPublisher = vc.methodInvoked(#selector(UIViewController.viewDidLoad)) 
 ```
 
 ## Contributing
