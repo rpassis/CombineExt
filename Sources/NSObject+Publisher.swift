@@ -94,9 +94,9 @@ extension NSObject {
     }
     
     private func registerMessageInterceptor<T: MessageInterceptorSubject>(_ selector: Selector) throws -> T {
-        let rxSelector = combineSelector(selector)
-        var mutableSelector = rxSelector
-        let selectorReference = UnsafeRawPointer(&mutableSelector)
+        
+        let rxSelector = RX_selector(selector)
+        let selectorReference = RX_reference_from_selector(rxSelector)
         
         let subject: T
         if let existingSubject = objc_getAssociatedObject(self, selectorReference) as? T {

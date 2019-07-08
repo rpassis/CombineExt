@@ -56,9 +56,9 @@
 /**
  #define SUM(context, index, head, tail) head + tail
  #define MAP(context, index, element) (context)[index] * (element)
-
+ 
  RX_FOR(numbers, SUM, MAP, b0, b1, b2);
-
+ 
  (numbers)[0] * (b0) + (numbers)[1] * (b1) + (numbers[2]) * (b2)
  */
 
@@ -68,9 +68,9 @@
 
 /**
  #define MAP(context, index, item) (context)[index] * (item)
-
+ 
  RX_FOR_COMMA(numbers, MAP, b0, b1);
-
+ 
  ,(numbers)[0] * b0, (numbers)[1] * b1
  */
 #define RX_FOREACH_COMMA(context, map, ...) RX_CAT2(_RX_FOREACH_COMMA_EMPTY_, RX_EMPTY(__VA_ARGS__))(context, map, ## __VA_ARGS__)
@@ -90,4 +90,3 @@
 #define RX_FOR_4(concat, map, ...) concat(3, RX_FOR_3(concat, map, ## __VA_ARGS__), map(3, __VA_ARGS__), __VA_ARGS__)
 #define RX_FOR_5(concat, map, ...) concat(4, RX_FOR_4(concat, map, ## __VA_ARGS__), map(4, __VA_ARGS__), __VA_ARGS__)
 #define RX_FOR_6(concat, map, ...) concat(5, RX_FOR_5(concat, map, ## __VA_ARGS__), map(5, __VA_ARGS__), __VA_ARGS__)
-

@@ -15,6 +15,17 @@ class CombineExtTests: XCTestCase {
         ("testExample", testExample),
     ]
     
-    func testExample() {}
+    func testExample() {
+        let vc = UIViewController()
+        let publisher = vc.methodInvoked(#selector(UIViewController.viewDidLoad))
+        let expectation = self.expectation(description: "View did load expectation")
+        _ = publisher.print().sink { values in
+            print(values)
+            expectation.fulfill()
+        }
+        vc.viewDidLoad()
+        self.wait(for: [expectation], timeout: 5.0)
+        
+    }
     
 }
