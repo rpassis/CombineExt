@@ -1,3 +1,15 @@
+//
+//  NSObject+Rx.swift
+//  RxCocoa
+//
+//  Created by Krunoslav Zaher on 2/21/15.
+//  Copyright © 2015 Krunoslav Zaher. All rights reserved.
+//
+//  This is a direct port of RxSwift's implementation of `methodInvoked`
+//  to be used with the Combine framework.
+//  See https://github.com/ReactiveX/RxSwift/blob/master/RxCocoa/Foundation/NSObject%2BRx.swift
+//  for the original source and additional documentation.
+
 import Combine
 import UIKit
 
