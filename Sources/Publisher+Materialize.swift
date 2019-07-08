@@ -54,7 +54,9 @@ extension Publisher {
     
     /**
      Convert any Publisher into a Publisher of its materialized events.
-     - returns: A sequence that wraps events in MaterializedEvent<T, E>. The returned Publisher never errors, but it does complete after receiving all of the events of the underlying Publisher.
+     - Returns: A sequence that wraps events in MaterializedEvent<T, E>.
+       The returned Publisher never errors, but it does complete after
+       receiving all of the events of the underlying Publisher.
      */    
     public func materialize() -> Publishers.Materialized<Self> {
         return Publishers.Materialized(upstream: self)
