@@ -45,7 +45,7 @@ extension NSObject {
                 let proxy: MessageSentProxy = try self.registerMessageInterceptor(selector)
                 return proxy.methodInvoked.eraseToAnyPublisher()
             } catch {
-                return Publishers.Once(error).eraseToAnyPublisher()
+                return Fail(error: error).eraseToAnyPublisher()
             }
         }
     }
@@ -143,7 +143,7 @@ extension NSObject {
                 let proxy: DeallocatingProxy = try self.registerMessageInterceptor(deallocSelector)
                 return proxy.messageSent.eraseToAnyPublisher()
             } catch {
-                return Publishers.Once(error).eraseToAnyPublisher()
+                return Fail(error: error).eraseToAnyPublisher()
             }
         }
     }

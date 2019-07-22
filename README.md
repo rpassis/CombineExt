@@ -25,9 +25,10 @@ Useful extensions, tools, recipes and Playground experiments to help adopting Ap
 Operators
 ===========
 
-* [unwrap](#unwrap)
+* ~~[unwrap](#unwrap)~~ (native implementation available using `compactMap`)
 * [materialize](#materialize)
 * [methodInvoked](#methodInvoked)
+* [controlEvent(for:)](#controlEvent)
 
 Operator details
 ===========
@@ -71,6 +72,16 @@ The `[Any]` array will contain any arguments that are passed in with the functio
   let vc = UIViewController()
   // Returns a AnyPublisher<[Any], Error> type that will emit and complete when viewDidLoad is called on the target view controller
   let viewDidLoadPublisher = vc.methodInvoked(#selector(UIViewController.viewDidLoad)) 
+```
+
+#### controlEvent(for:)
+
+```swift
+  let textField = UITextField()  
+  let sink = textField.publisher(for: .valueChanged)
+      .print()
+      .sink { _ in }
+  textField.sendActions(for: .valueChanged)  
 ```
 
 ## Contributing

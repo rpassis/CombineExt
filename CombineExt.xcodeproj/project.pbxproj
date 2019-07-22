@@ -42,12 +42,10 @@
 		5B5FCB6422C9393200347AB0 /* CustomScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */; };
 		5B5FCB6522C9393200347AB0 /* CustomScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */; };
 		5B5FCB6622C9393200347AB0 /* CustomScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */; };
+		5B81682522E6175F00573687 /* UIControl+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81682422E6175F00573687 /* UIControl+Publisher.swift */; };
+		5B81682622E6175F00573687 /* UIControl+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81682422E6175F00573687 /* UIControl+Publisher.swift */; };
 		5B848F5522D0D77300200401 /* Publisher+Materialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B848F5422D0D77300200401 /* Publisher+Materialize.swift */; };
 		5BA6023722D2E77B005F09B4 /* _RXObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DDF222D2E3FC00AE7A25 /* _RXObjCRuntime.m */; };
-		5BC282BC22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */; };
-		5BC282BD22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */; };
-		5BC282BE22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */; };
-		5BC282BF22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */; };
 		5BE9851422D2C90900BCF622 /* NSObject+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */; };
 		5BE9851522D2C90900BCF622 /* NSObject+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */; };
 		5BE9851622D2C90900BCF622 /* NSObject+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */; };
@@ -132,8 +130,8 @@
 		5B30DE2322D2E41E00AE7A25 /* _RX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RX.h; sourceTree = "<group>"; };
 		5B30DE3922D2E4D200AE7A25 /* CombineExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombineExt.h; sourceTree = "<group>"; };
 		5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScheduler.swift; sourceTree = "<group>"; };
+		5B81682422E6175F00573687 /* UIControl+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Publisher.swift"; sourceTree = "<group>"; };
 		5B848F5422D0D77300200401 /* Publisher+Materialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Materialize.swift"; sourceTree = "<group>"; };
-		5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Unwrap.swift"; sourceTree = "<group>"; };
 		5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Publisher.swift"; sourceTree = "<group>"; };
 		5BE9851822D2C9C400BCF622 /* CombineExt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombineExt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -253,9 +251,9 @@
 				5B30DDF022D2E3FC00AE7A25 /* ObjCRuntime */,
 				5BE9851322D2C90900BCF622 /* NSObject+Publisher.swift */,
 				5B848F5422D0D77300200401 /* Publisher+Materialize.swift */,
-				5BC282BB22CA614800CA4A1B /* Publisher+Unwrap.swift */,
 				5B5FCB6222C9393200347AB0 /* CustomScheduler.swift */,
 				5B30DE3922D2E4D200AE7A25 /* CombineExt.h */,
+				5B81682422E6175F00573687 /* UIControl+Publisher.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -714,7 +712,7 @@
 				5B5FCB6322C9393200347AB0 /* CustomScheduler.swift in Sources */,
 				5B848F5522D0D77300200401 /* Publisher+Materialize.swift in Sources */,
 				5BE9851422D2C90900BCF622 /* NSObject+Publisher.swift in Sources */,
-				5BC282BC22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */,
+				5B81682522E6175F00573687 /* UIControl+Publisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,11 +720,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B81682622E6175F00573687 /* UIControl+Publisher.swift in Sources */,
 				5B30DE0422D2E3FC00AE7A25 /* _RX.m in Sources */,
 				5BE9851522D2C90900BCF622 /* NSObject+Publisher.swift in Sources */,
 				5B5FCB6422C9393200347AB0 /* CustomScheduler.swift in Sources */,
 				5B30DE0022D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */,
-				5BC282BD22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,7 +736,6 @@
 				5BE9851622D2C90900BCF622 /* NSObject+Publisher.swift in Sources */,
 				5B5FCB6522C9393200347AB0 /* CustomScheduler.swift in Sources */,
 				5B30DE0122D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */,
-				5BC282BE22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,7 +747,6 @@
 				5BE9851722D2C90900BCF622 /* NSObject+Publisher.swift in Sources */,
 				5B5FCB6622C9393200347AB0 /* CustomScheduler.swift in Sources */,
 				5B30DE0222D2E3FC00AE7A25 /* _RXObjCRuntime.m in Sources */,
-				5BC282BF22CA614800CA4A1B /* Publisher+Unwrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
