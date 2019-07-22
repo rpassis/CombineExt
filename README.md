@@ -25,29 +25,13 @@ Useful extensions, tools, recipes and Playground experiments to help adopting Ap
 Operators
 ===========
 
-* ~~[unwrap](#unwrap)~~ (native implementation available using `compactMap`)
+* ~~[unwrap](#unwrap)~~ (removed in favor of native implementation available using `compactMap`)
 * [materialize](#materialize)
 * [methodInvoked](#methodInvoked)
 * [controlEvent(for:)](#controlEvent)
 
 Operator details
 ===========
-
-#### unwrap
-
-Unwrap optionals and filter out nil values.
-
-```swift
-  [1,2,nil,4].publisher()
-    .unwrap()
-    .sink { print($0) }
-```
-
-```
-next(1)
-next(2)
-next(4)
-```
 
 #### materialize
 
