@@ -11,11 +11,9 @@ import Combine
 import UIKit
 
 extension UIControl {
-    
     public func publisher(for controlEvents: UIControl.Event) -> Publishers.ControlEvent {
         return Publishers.ControlEvent(control: self, events: controlEvents)
     }
-    
 }
 
 extension Publishers {
